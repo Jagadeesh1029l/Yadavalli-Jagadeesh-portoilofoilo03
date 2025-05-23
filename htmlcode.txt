@@ -1,0 +1,177 @@
+# Yadavalli-Jagadeesh-portoilofoilo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="personal-2.css">
+     <script src="personal-2.js"></script>
+</head>
+<body>
+    <header>
+        <marquee><h1>Hello , Iam Yadavalli Jagadeesh </h1></marquee>
+        <section><h2>Full Stack Developer</h2></section>
+        
+        <div class="social media">
+          <a href="Gmail.jpg" target="_blank">
+            <i class=" https://jagadeeshyadavalli3@gmail.com"></i>
+          </a>
+
+          <a href="LinkedIn.jpg" target="_blank">
+            <i class="www.linkedin.com/in/jagadeesh-yadavalli-437784248"></i>
+          </a>
+
+          <a href="Github.jpg" target="_blank">
+            <i class="https://github.com/Jagadeesh1029l"></i>
+          </a>
+        </div>
+        <div>
+            <a href="Jagadeesh_Resume.pdf" target="_blank" class="btn">view Resume</a>
+        </div>
+    </header>
+    <nav>
+        <a href="#about"><b>About</b></a>
+        <a href="#education"><b>Education</b></a>
+        <a href="#skills"><b>Skills</b></a>
+        <a href="#projects"><b>Projects</b></a>
+        <a href="#contact"><b>Contact</b></a>
+    </nav>
+    
+    <div class="container">
+        <section id="about" class="profile">
+            <img src="Profile pic.jpg.jpg" alt="Profile Photo">
+            <p>
+              Hi, I'm Yadavalli Jagadeesh, an aspiring Java Full Stack Developer based in Veluru, Andhra Pradesh, India. I'm passionate about building efficient, scalable web applications and solving real-world problems through clean, maintainable code.
+            </p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong><h3>B.Tech:</h3></strong> Tirumala Engineering College<br>Electronics and Communication Engineering<br><b>CGPA:</b> 6.7<br><b>Year: </b>2021-2024<br></li>
+                <li><strong><h3>Diploma:</h3></strong> Vasavi Junior College<br>Electronics and Communication<br><b>Percentage:</b>79.5%<br><b>Year: </b>2018-2021</li>
+                <li><strong><h3>SSC:</h3></strong> Chaitanya High School<br><b> CGPA:</b> 9.2<br><b>Year:</b> 2018</li>
+            </ul>
+        </section>
+
+
+         <section id=" Experience">
+            <h2 class="heading">
+                Professional 
+                <span>Experience</span></h2>
+            <ul>
+                 <li><strong><h3>JSpiders:</h3></strong>I received hands-on training in building web applications using Java and frontend technologies.
+                    I worked on real-time projects that helped me understand both backend and frontend development. <br>
+
+                  <strong>Key Responsibilities:</strong> <br>
+
+                    • Created web pages using HTML, CSS, and JavaScript
+                    • Wrote backend code in Java and JDBC
+                    • Connected applications to MySQL and handled CRUD operations
+                    • Used MVC architecture to organize project structure
+                    • Took part in code reviews, discussions, and assessments
+                    • Worked with teammates to build and fix mini-projects
+
+                 <li><strong><h3>Delphi tvs:</h3></strong> 
+                   • Inspect and ensure the manufacturing machines are operating <br>
+                   • Monitor the production process to confirm diesel components are being made to specification. <br>
+                   • Verify the quality of each component during the manufacturing process. <br>
+                   • Accurately assemble the diesel parts, ensuring all specifications <br> </li>
+            </ul>
+        </section>
+
+
+        <section>
+            <section id="skills">
+              <h2 class="heading">
+                Techinacal
+                <span>Skills</span></h2>
+            </section>
+            <div class="skills">
+                <div>
+                    <img src="java.png"height="100px" alt="Core Java Logo">
+                    Core Java
+                </div><br>
+                <div>
+                    <img src="SQL.jpg" height="100px" width="200px" alt="SQL Logo">
+                    SQL
+                </div><br>
+                <div>
+                    <img src="HTML.jpg" height="100px" width="200px" alt="HTML Logo">
+                    HTML
+                </div><br>
+                <div>
+                    <img src="CSS.jpg" height="100px" width="200px" alt="CSS Logo">
+                    CSS
+                </div><br>
+                <div>
+                    <img src="JavaScript.jpg" height="100px" width="300px" alt="JavaScript Logo">
+                    JavaScript
+                </div><br>
+               
+                <div>
+                    <img src="Programming.jpg" height="100px" width="300px" alt="Programming Logo">
+                    Programming
+                </div><br> 
+                <div>
+                    <img src="MySQL.jpg" height="100px" width="300px" alt="MySQL Logo">
+                    MySQL
+                </div><br> 
+                <div>
+                    <img src="DSA.jpg" height="100px" width="300px" alt="DSA Logo">
+                    DSA
+                </div><br> 
+                 
+            </div>
+        </section>
+        <section id="projects">
+            <h2 class="heading">
+                Featured 
+                <span>Projects</span></h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="project pic-1.jpg" alt="Defect Detection Project">
+                    <img src="project pic-2.jpg" alt="">
+                    <h3>Arduino-Based Voltage Protection System</h3>
+                      <p>A prototype of an Arduino-based protection system designed to overcome voltage fluctuations and protect electrical appliances. By monitoring voltage in real-time, the system detects under-voltage and over-voltage conditions and disconnects the load using a relay to prevent damage. The setup includes an Arduino Uno, voltage and current sensors, LCD display, potentiometer, and buzzer. Voltage thresholds are adjustable, and alerts are provided for critical conditions. This cost-effective prototype aims to improve equipment longevity and reliability by automating voltage regulation for low-voltage applications.</p>
+                      <li><strong>Technologies Used:</strong> Java,MySQL, Arduino uno, HTML, CSS, JavaScript, Potentiometer , INA219 voltage and current sensor , 16*2 lcd , relay. etc. </li> 
+        
+                </div>
+                <div class="project">
+                    <img src="Hotel Booking.png" alt="hotel booking system">
+                    <h3>Hotel Booking System</h3>
+                    <p>The Hotel Booking System is a full-stack web application designed to streamline the hotel room booking process for users while providing management capabilities for hotel administrators. This project allows users to browse available rooms, filter them based on preferences, make bookings, and complete payments online. The admin side enables hotel staff to manage room listings, view bookings, and track user activity..</p>
+                    <li><strong>Technologies Used: Core Java, MySQL,HTML, CSS, JavaScript </strong></li>
+                               
+                  </div>
+            </div>
+        </section>
+
+
+         <!-- contact section design -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+  <form action="https://formspree.io/f/mzzrarby" method="post">
+     <div class="input-box">
+           <input type="text" name="full-name" placeholder="Full Name">
+           <input type="email" name="email" placeholder="Email">
+         <div class="input-box">
+           <input type="number" name="mobile-number" placeholder="Mobile Number">
+           <input type="text" name="subject" placeholder="Email Subject">
+         </div>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      </div>
+      <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+     
+     <footer>
+      <section>
+          <p>Copyright ©  May 2025 by Yadavalli Jagadeesh | All Rights Reserved </p>
+       </section>
+    </footer>
+
+</body>
+</html>
+
+   
